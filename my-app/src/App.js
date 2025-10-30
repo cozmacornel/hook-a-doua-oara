@@ -77,7 +77,7 @@ function FetchExample() {
   if (error) return <p>Error: {error.message}</p>;
   return (
     <div>
-      <h3>Date utilizator</h3>
+      <h3>Date utilizator:</h3>
       <pre>{JSON.stringify(posts, null, 2)}</pre>
     </div>
   )
